@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+
 const Navbar = () => {
   const [show, setShow] = useState(null);
   const [profile, setProfile] = useState(false);
