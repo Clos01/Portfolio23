@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { useState } from 'react';
-
+import { logo } from '../svg/logo';
 const Navbar = () => {
   const [show, setShow] = useState(null);
   const [profile, setProfile] = useState(false);
@@ -11,20 +12,14 @@ const Navbar = () => {
         <div className="container px-6 justify-between h-16 flex items-center lg:items-stretch mx-auto">
             <div className="h-full flex items-center">
                 <div className="mr-10 flex items-center">
-                    <svg aria-label="Home" id="logo" enableBackground="new 0 0 300 300" height={44} viewBox="0 0 300 300" width={43} xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
-                        <g>
-                            <path
-                                fill="#4c51bf"
-                            />
-                        </g>
-                    </svg>
-                    <h3 className="text-base text-white font-bold tracking-normal leading-tight ml-3 hidden lg:block">The North</h3>
+                 <svg src={logo } alt="logo svg" className=""/>
+                    <h3 className="text-base text-white font-bold tracking-normal leading-tight ml-3 hidden lg:block">CJR</h3>
                 </div>
                 <ul className="pr-12 xl:flex items-center h-full hidden">
-                    <li className="cursor-pointer h-full flex items-center hover:text-indigo-700 text-sm text-white tracking-normal border-b-2 border-white">Dashboard</li>
-                    <li className="cursor-pointer h-full flex items-center hover:text-indigo-700 text-sm text-white mx-10 tracking-normal">Products</li>
-                    <li className="cursor-pointer h-full flex items-center hover:text-indigo-700 text-sm text-white mr-10 tracking-normal">Performance</li>
-                    <li className="cursor-pointer h-full flex items-center hover:text-indigo-700 text-sm text-white tracking-normal">Deliverables</li>
+                    <li className="cursor-pointer h-full flex items-center hover:text-indigo-700 text-sm text-white tracking-normal border-b-2 border-white"><Link to="/">Home</Link></li>
+                    <li className="cursor-pointer h-full flex items-center hover:text-indigo-700 text-sm text-white mx-10 tracking-normal"><Link to="/projects">Projects</Link></li>
+                    <li className="cursor-pointer h-full flex items-center hover:text-indigo-700 text-sm text-white mr-10 tracking-normal"><Link to="/Resume">Resume</Link></li>
+                    <li className="cursor-pointer h-full flex items-center hover:text-indigo-700 text-sm text-white tracking-normal"><Link to="/Contactme">Contact me </Link></li>
                 </ul>
             </div>
            
@@ -32,21 +27,21 @@ const Navbar = () => {
                 <ul className="p-2 border-r bg-white absolute rounded top-0 left-0 right-0 shadow mt-16 md:mt-16 hidden">
                     <li className="flex md:hidden cursor-pointer text-gray-600 text-sm leading-3 tracking-normal mt-2 py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none">
                         <div className="flex items-center">
-                            <span className="ml-2 font-bold">Dashboard</span>
+                        <span className="ml-2 font-bold"><Link to="/">Home</Link></span>
                         </div>
                     </li>
                     <li className="flex md:hidden flex-col cursor-pointer text-gray-600 text-sm leading-3 tracking-normal py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none flex justify-center">
                         <div className="flex items-center">
-                            <span className="ml-2 font-bold">Products</span>
+                            <span className="ml-2 font-bold">Projects</span>
                         </div>
                     </li>
                     <li className="flex md:hidden flex-col cursor-pointer text-gray-600 text-sm leading-3 tracking-normal py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none flex justify-center">
                         <div className="flex items-center">
-                            <span className="ml-2 font-bold">Performance</span>
+                            <span className="ml-2 font-bold">Resume</span>
                         </div>
                     </li>
                     <li className="border-b border-gray-300 flex md:hidden cursor-pointer text-gray-600 text-sm leading-3 tracking-normal pt-2 pb-4 hover:text-indigo-700 flex items-center focus:text-indigo-700 focus:outline-none">
-                        <span className="ml-2 font-bold">Deliverables</span>
+                        <span className="ml-2 font-bold">Contact me</span>
                     </li>
                     <li className="cursor-pointer text-gray-600 text-sm leading-3 tracking-normal mt-2 py-2 hover:text-indigo-700 flex items-center focus:text-indigo-700 focus:outline-none">
                         <div className="flex items-center">
@@ -153,7 +148,15 @@ const Navbar = () => {
                                                     <rect x={14} y={14} width={6} height={6} rx={1} />
                                                 </svg>
                                             </div>
-                                            <p className="text-indigo-700 xl:text-base text-base ml-3">Dashboard</p>
+                                            <div>
+                                            <ul className="pr-12 xl:flex items-center h-full hidden">
+                    <li className="cursor-pointer h-full flex items-center hover:text-indigo-700 text-sm text-white tracking-normal border-b-2 border-white"><Link to="/">Home</Link></li>
+                    <li className="cursor-pointer h-full flex items-center hover:text-indigo-700 text-sm text-white mx-10 tracking-normal"><Link to="/projects">Projects</Link></li>
+                    <li className="cursor-pointer h-full flex items-center hover:text-indigo-700 text-sm text-white mr-10 tracking-normal"><Link to="/Resume">Resume</Link></li>
+                    <li className="cursor-pointer h-full flex items-center hover:text-indigo-700 text-sm text-white tracking-normal"><Link to="/Contactme">Contact me </Link></li>
+                </ul>
+                                            </div>
+                                            <span className="ml-2 font-bold"><Link to="/">Home</Link></span>
                                         </div>
                                     </li>
                                 </a>
@@ -166,7 +169,7 @@ const Navbar = () => {
                                                         <path stroke="none" d="M0 0h24v24H0z" />
                                                     </svg>
                                                 </div>
-                                                <p className="text-white xl:text-base  text-base ml-3">Products</p>
+                                                <li className="text-white xl:text-base  text-base ml-3"> <Link to="/Projects">Projects </Link></li>
                                             </div>
                                         </div>
                                     </li>
@@ -181,7 +184,7 @@ const Navbar = () => {
                                                     <circle cx={12} cy={12} r={9} />
                                                 </svg>
                                             </div>
-                                            <p className="text-white xl:text-base  text-base ml-3">Performance</p>
+                                            <p className="text-white xl:text-base  text-base ml-3"> <Link to="/Resume">Resume </Link></p>
                                         </div>
                                     </li>
                                 </a>
@@ -196,7 +199,7 @@ const Navbar = () => {
                                                     <line x1={14} y1={4} x2={10} y2={20} />
                                                 </svg>
                                             </div>
-                                            <p className="text-white xl:text-base  text-base ml-3">Deliverables</p>
+                                            <li className="text-white xl:text-base  text-base ml-3"><Link to="/Contactme"> Contact me</Link></li>
                                         </div>
                                     </div>
                                 </li>
