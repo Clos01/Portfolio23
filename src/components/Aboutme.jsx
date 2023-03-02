@@ -3,7 +3,7 @@ import React from "react";
 export const Aboutme = () => {
   return (
     <>
-      <div className="dark:bg-gray-900">
+      <div className="dark:bg-gray-900 ">
         <div className="flex flex-col lg:flex-row items-stretch justify-between lg:px-0 px-6 lg:py-20 py-8 2xl:mx-auto 2xl:container">
           <div className="z-30 relative lg:w-1/2">
             <div className="hidden dark:bg-gray-800 bg-gray-100 w-full lg:w-10/12 lg:h-full lg:flex justify-end items-center">
@@ -29,7 +29,7 @@ export const Aboutme = () => {
               <h1 className="dark:text-white md:w-8/12 lg:w-10/12 xl:8/12 2xl:w-8/12 w-full xl:text-6xl sm:text-5xl text-4xl font-semibold text-gray-800 capitalize">
                 About me{" "}
               </h1>
-              <div className="dark:text-gray-300 md:w-9/12 lg:w-11/12 xl:w-10/12 2xl:9/12 text-base leading-normal text-gray-600 mt-5">
+              <div className="dark:text-gray-300 md:w-9/12 lg:w-11/12 xl:w-10/12 2xl:9/12  leading-normal text-gray-600 mt-5 text-xl">
                 <p>
                   {" "}
                   Hi there! I'm a new software engineer who's passionate about
@@ -46,23 +46,15 @@ export const Aboutme = () => {
                   beyond.
                 </p>
                 <br />
-                <p>
-                  My true passion lies in <br />
-                  problem-solving and using technology to make life easier for
-                  myself and others. I'm driven to create innovative solutions
-                  and improve upon existing ones, and I love the feeling of
-                  accomplishment that comes with overcoming obstacles and
-                  delivering results.
-                </p>
-                <br />
+            
                 <ul className="list-disc ml-4 ">
                   <li className="my-2">
-                    Learn computer science applied to JavaScript, including
+                    Learned computer science applied to JavaScript, including
                     algorithms (searches, sorts), efficiency, time complexity,
                     and big O notation
                   </li>
                   <li className="my-2">
-                    Learn how to use local storage, session storage, and
+                    Learned how to use local storage, session storage, and
                     IndexedDB, as well as user authentication, API interaction,
                     and JSON
                     </li>

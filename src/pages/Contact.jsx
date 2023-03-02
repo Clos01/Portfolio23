@@ -180,8 +180,7 @@ export const Contact = () => {
               </div>
             </div>
             <p className="text-xs leading-3 text-gray-600 mt-4">
-              By clicking submit you agree to our terms of service, privacy
-              policy and how we use data as stated
+              By submiting x you will be sending your message to
             </p>
             <div className="flex items-center justify-center w-full">
               <button className="mt-9 text-base font-semibold leading-none text-white py-4 px-10 bg-indigo-700 rounded hover:bg-indigo-600 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:outline-none">
