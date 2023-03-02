@@ -6,12 +6,15 @@ export const Hero = () => {
       <section class="overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2 pt-8 xs:pt-8">
         <div class="p-8 md:p-12 lg:px-16 lg:py-24">
           <div class="mx-auto max-w-xl text-center sm:text-left">
-            <h1>Hi all, I'm Carlos</h1>
+            <h1>Hi, I'm Carlos</h1>
 
             <p class="hidden text-gray-500 md:mt-4 md:block">
-              A passionate Full Stack Software Developer 🚀 having an experience
-              of building Web applications with JavaScript / Reactjs / Nodejs /
-              React Native and some other cool libraries and frameworks.
+              Experienced software engineer with a background in bootcamp
+              training from UNC. Skilled in React, HTML, CSS, and JavaScript,
+              with a passion for building engaging user interfaces and web
+              applications. Proficient in various programming languages and
+              always eager to learn more. Seeking new opportunities to apply my
+              skills and collaborate with other talented developers.
             </p>
             <div class="social-media-div">
               <a

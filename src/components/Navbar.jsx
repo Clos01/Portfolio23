@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className="container px-6 justify-between h-16 flex items-center lg:items-stretch mx-auto">
             <div className="h-full flex items-center">
                 <div className="mr-10 flex items-center">
-                 <svg src={logo } alt="logo svg" className=""/>
+                 <svg src={logo } alt="logo svg" className="w-full mx-auto hidden "/>
                     <h3 className="text-base text-white font-bold tracking-normal leading-tight ml-3 hidden lg:block">CJR</h3>
                 </div>
                 <ul className="pr-12 xl:flex items-center h-full hidden">
