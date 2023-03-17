@@ -4,7 +4,7 @@ export const Contact = () => {
   const [show, setShow] = useState(false);
   return (
     <div>
-      <div className="bg-gradient-to-b from-purple-600 to-indigo-700 h-96 w-full">
+      <div className="bg-gradient-to-b bg-[#c39b4cac] h-96 w-full">
         <div className="md:px-20 px-4 py-8">
           <div className="flex items-center justify-between">
             <div
@@ -64,7 +64,7 @@ export const Contact = () => {
                 <div className="visible flex items-center">
                   <ul
                     id="list"
-                    className=" p-2 bg-white absolute rounded top-0 left-0 right-0 shadow mt-6"
+                    className=" p-2 bg-[#1c5f93c3] absolute rounded top-0 left-0 right-0 shadow mt-6"
                   >
                     <li className="flex cursor-pointer text-gray-600 text-sm leading-3 tracking-normal mt-2 py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none">
                       <a href="javascript:void(0)">
@@ -107,7 +107,7 @@ export const Contact = () => {
           )}
         </div>
         <div className="w-full flex items-center justify-center my-12">
-          <div className="absolute top-40 bg-white shadow rounded py-12 lg:px-28 px-8">
+          <div className="absolute top-40 bg-[#438cc5] shadow rounded py-12 lg:px-28 px-8">
             <p className="md:text-3xl text-xl font-bold leading-7 text-center text-gray-700">
               Contact Form
             </p>
@@ -183,7 +183,7 @@ export const Contact = () => {
               By submiting x you will be sending your message to
             </p>
             <div className="flex items-center justify-center w-full">
-              <button className="mt-9 text-base font-semibold leading-none text-white py-4 px-10 bg-indigo-700 rounded hover:bg-indigo-600 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:outline-none">
+              <button className="mt-9 text-base font-semibold leading-none text-white py-4 px-10 bg-[#a58648] focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:outline-none">
                 SUBMIT
               </button>
             </div>

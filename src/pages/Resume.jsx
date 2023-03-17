@@ -1,6 +1,11 @@
-import React from "react";
+import React from 'react';
 
 export const Resume = () => {
-  return
-   <div>Resume</div>;
+  return (
+    <div>
+      <a href="/resume.pdf"  download={true}>
+        View Resume
+      </a>
+    </div>
+  );
 };

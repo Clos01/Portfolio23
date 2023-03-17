@@ -6,9 +6,9 @@ const Navbar = () => {
   const [show, setShow] = useState(null);
   const [profile, setProfile] = useState(false);
   return (
-    <div className="bg-gray-200 h-full w-full">
+    <div className="bg-[#1c5f93c3]  h-full w-full">
       {/* Code block starts */}
-      <nav className="w-full mx-auto hidden xl:block bg-gray-800 shadow">
+      <nav className="w-full mx-auto hidden xl:block bg-[#1c5f93c3] shadow">
         <div className="container px-6 justify-between h-16 flex items-center lg:items-stretch mx-auto">
           <div className="h-full flex items-center">
             <div className="mr-10 flex items-center">
@@ -22,16 +22,16 @@ const Navbar = () => {
               </h3>
             </div>
             <ul className="pr-12 xl:flex items-center h-full hidden">
-              <li className="cursor-pointer h-full flex items-center hover:text-indigo-700 text-sm text-white tracking-normal border-b-2 border-white">
+              <li className="cursor-pointer h-full flex items-center hover:text-[#a58648] text-sm text-white tracking-normal border-b-2 border-white">
                 <Link to="/">Home</Link>
               </li>
-              <li className="cursor-pointer h-full flex items-center hover:text-indigo-700 text-sm text-white mx-10 tracking-normal">
+              <li className="cursor-pointer h-full flex items-center hover:text-[#a58648] text-sm text-white mx-10 tracking-normal">
                 <Link to="/projects">Projects</Link>
               </li>
-              <li className="cursor-pointer h-full flex items-center hover:text-indigo-700 text-sm text-white mr-10 tracking-normal">
+              <li className="cursor-pointer h-full flex items-center hover:text-[#a58648] text-sm text-white mr-10 tracking-normal">
                 <Link to="/Resume">Resume</Link>
               </li>
-              <li className="cursor-pointer h-full flex items-center hover:text-indigo-700 text-sm text-white tracking-normal">
+              <li className="cursor-pointer h-full flex items-center hover:text-[#a58648] text-sm text-white tracking-normal">
                 <Link to="/Contactme">Contact me </Link>
               </li>
             </ul>
@@ -39,7 +39,7 @@ const Navbar = () => {
 
           <div className="flex items-center xl:hidden">
             <ul className="p-2 border-r bg-white absolute rounded top-0 left-0 right-0 shadow mt-16 md:mt-16 hidden">
-              <li className="flex md:hidden cursor-pointer text-gray-600 text-sm leading-3 tracking-normal mt-2 py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none">
+              <li className="flex md:hidden cursor-pointer text-gray-600 text-sm leading-3 tracking-normal mt-2 py-2 hover:text-[#a58648] focus:text-[#a58648] focus:outline-none">
                 <div className="flex items-center">
                   <span className="ml-2 font-bold">
                     <Link to="/">Home</Link>
