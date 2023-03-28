@@ -67,8 +67,8 @@ export const Projects = () => (
         />
         <ProjectCard
           image={Disco}
-          subtitle="Friends in seattle"
-          description="Built it with a team, you are able to message your friends, has a database, login and sign up too, give it a TRY!" 
+          subtitle="Disco at the dungeon"
+          description="Built with a team, was created with react, javascript, nodeJS" 
           demoLink="https://dnd-character-creator1.herokuapp.com/"
           codeLink="https://github.com/Clos01/DND-project-"
         />
