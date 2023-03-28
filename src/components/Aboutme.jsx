@@ -2,8 +2,8 @@ import React from "react";
 
 export const Aboutme = () => {
   return (
-    <>
-      <div className="bg-[#3f6e94c3]  h-[56rem] mx-auto  px-2 w-full overflow-y-hidden ">
+    
+      <div className="bg-[#3f6e94c3] lg:h-[56rem] h-auto mx-auto  px-2 w-full overflow-y-hidden ">
         <div className="flex flex-col lg:flex-row items-stretch justify-between lg:px-0 px-6 lg:py-20 py-8 2xl:mx-auto 2xl:container">
       
           <div className="bg-[#d3a56598] lg:w-1/2 lg:ml-12 lg:p-14 p-10 flex items-center">
@@ -34,33 +34,25 @@ export const Aboutme = () => {
                 </p>
                 <br />
                 <div class="flex flex-row">
-  <div class="flex w-10 h-10">
-    <img src="https://cdn-icons-png.flaticon.com/512/1051/1051277.png" alt="" />
-    <img src="https://cdn-icons-png.flaticon.com/512/919/919851.png" alt="" />
-    <img src="https://cdn-icons-png.flaticon.com/512/2772/2772128.png" alt="" />   
-    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="" />
-    <img src="https://cdn-icons-png.flaticon.com/512/919/919825.png" alt="" />
-    <img src="https://t4.ftcdn.net/jpg/00/90/67/37/240_F_90673721_nTq4hQ0UG1RxQ1niYwMnhzp05fsdkZyN.jpg" alt="" />
-  
-  </div>
-</div>
+                  <div class="flex w-10 h-10">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1051/1051277.png" alt="" />
+                    <img src="https://cdn-icons-png.flaticon.com/512/919/919851.png" alt="" />
+                    <img src="https://cdn-icons-png.flaticon.com/512/2772/2772128.png" alt="" />   
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="" />
+                    <img src="https://cdn-icons-png.flaticon.com/512/919/919825.png" alt="" />
+                    <img src="https://t4.ftcdn.net/jpg/00/90/67/37/240_F_90673721_nTq4hQ0UG1RxQ1niYwMnhzp05fsdkZyN.jpg" alt="" />
+                  </div>
+                </div>
 
-              </div>
-              <button className="dark:bg-white dark:hover:bg-gray-400 dark:hover:text-gray-100 dark:text-gray-800 sm:w-auto w-full mt-8 text-base justify-between focus:ring-2 focus:ring-offset-2 focus:ring-gray-700 focus:outline-none hover:bg-gray-700 font-medium leading-none text-white py-4 px-8 bg-gray-800 flex items-center">
-                Explore
-              </button>
+ <button className="dark:bg-white dark:hover:bg-gray-400 dark:hover:text-gray-100 dark:text-gray-800 sm:w-auto w-full mt-8 text-base justify-between focus:ring-2 focus:ring-offset-2 focus:ring-gray-700 focus:outline-none hover:bg-gray-700 font-medium leading-none text-white py-4 px-8 bg-gray flex items-center">
+  Explore
+</button>
+
             </div>
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
-
-
-
-
-
-
-
 
 };
