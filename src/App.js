@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import { Projects } from './pages/Projects';
 import{Resume} from './pages/Resume';
-import {Contact} from './pages/Contact';
+import Contact from './pages/Contact';
  // Component names should start with a capital letter
 // import{  Aboutme}  from './components/Aboutme';
 
