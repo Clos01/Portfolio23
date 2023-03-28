@@ -39,9 +39,6 @@ export const Aboutme = () => {
                 <img className="w-10 h-10" src="https://t4.ftcdn.net/jpg/00/90/67/37/240_F_90673721_nTq4hQ0UG1RxQ1niYwMnhzp05fsdkZyN.jpg" alt="" />
               </div>
 
-              <button className="dark:bg-white dark:hover:bg-gray-400 dark:hover:text-gray-100 dark:text-gray-800 sm:w-auto w-full mt-8 text-base justify-between focus:ring-2 focus:ring-offset-2 focus:ring-gray-700 focus:outline-none hover:bg-gray-700 font-medium leading-none text-white py-4 px-8 bg-gray flex items-center">
-Explore
-</button>
 </div>
 </div>
 </div>
