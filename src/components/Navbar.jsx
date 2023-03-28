@@ -208,7 +208,7 @@ const Navbar = () => {
                             fill="#667EEA"
                           />
                         </svg>
-                        <p className="text-base  text-white ml-3">The North</p>
+                        <p className="text-base  text-white ml-3">Portfolio</p>
                       </div>
                       <div
                         id="cross"
