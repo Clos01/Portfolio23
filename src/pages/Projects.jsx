@@ -74,14 +74,14 @@ export const Projects = () => (
         />
          <ProjectCard
           image={budget}
-          subtitle="THE SUBTITLE 3"
+          subtitle="Budget APP"
           description="Built it in school couple of first time using some backend" 
           demoLink="https://github.com/Clos01/Los-Budget-Tracker"
           codeLink="https://github.com/Clos01/Los-Budget-Tracker"
         />
          <ProjectCard
           image={quiz}
-          subtitle="THE SUBTITLE 3"
+          subtitle="Javascript JS"
           description="One of my first projects built with JS" 
           demoLink="https://clos01.github.io/Js-Quiz-Los/"
           codeLink="https://github.com/Clos01/Js-Quiz-Los"
