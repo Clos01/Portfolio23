@@ -4,7 +4,6 @@ import { useState } from "react";
 import { logo } from "../svg/logo";
 const Navbar = () => {
   const [show, setShow] = useState(null);
-  const [profile, setProfile] = useState(false);
   return (
     <div className="bg-[#1c5f93c3]  h-full w-full">
       {/* Code block starts */}
@@ -236,7 +235,7 @@ const Navbar = () => {
                     </div>
                   </div>
                   <ul className="f-m-m">
-                    <a className="cursor-pointer">
+                    <div className="cursor-pointer">
                       <li className="text-white pt-10">
                         <div className="flex items-center">
                           <div className="w-6 h-6 md:w-8 md:h-8 text-indigo-700">
@@ -278,8 +277,8 @@ const Navbar = () => {
                           </span>
                         </div>
                       </li>
-                    </a>
-                    <a className="cursor-pointer">
+                    </div>
+                    <div className="cursor-pointer">
                       <li className="text-white pt-8">
                         <div className="flex items-center justify-between">
                           <div className="flex items-center">
@@ -304,8 +303,8 @@ const Navbar = () => {
                           </div>
                         </div>
                       </li>
-                    </a>
-                    <a className="cursor-pointer">
+                    </div>
+                    <div className="cursor-pointer">
                       <li className="text-white pt-8">
                         <div className="flex items-center">
                           <div className="w-6 h-6 md:w-8 md:h-8 text-white">
@@ -330,7 +329,7 @@ const Navbar = () => {
                           </p>
                         </div>
                       </li>
-                    </a>
+                    </div>
                     <li className="text-white pt-8 cursor-pointer">
                       <div className="flex items-center justify-between">
                         <div className="flex items-center">
