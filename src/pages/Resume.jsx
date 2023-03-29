@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from "../images/resume23.pdf"
+import resume from "../images/resume.jpg"
 export const Resume = () => {
   return (
     <div>
