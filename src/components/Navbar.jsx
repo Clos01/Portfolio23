@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-
+import { motion } from "framer-motion";
 
 const NavItem = ({ to, label, className }) => (
-  <li className={`cursor-pointer h-full flex items-center hover:text-[#3d9abc] text-md text-black tracking-normal ${className}`}>
+  <li className={`cursor-pointer h-full flex items-center hover:text-[#3d9abc] text- text-black tracking-normal ${className}`}>
     <Link to={to}>{label}</Link>
   </li>
 );
@@ -11,16 +11,14 @@ const NavItem = ({ to, label, className }) => (
 const MobileNavItem = ({ to, label, onLinkClick }) => (
   <div className="cursor-pointer">
     <li className="text-white pt-8">
-      <div className="flex items-center justify-between">
-        {/* You can insert an icon here if needed */}
+      <div className="flex items-center justify-center">
         <li className="text-white xl:text-base text-base ml-3">
-        <Link to={to} onClick={onLinkClick}>{label}</Link>
+          <Link to={to} onClick={onLinkClick}>{label}</Link>
         </li>
       </div>
     </li>
   </div>
 );
-
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
@@ -34,27 +32,32 @@ const Navbar = () => {
     { to: "/Contactme", label: "Contact me", className: "" },
   ];
 
+  // Animation variants for mobile navigation menu
+  const navMenuVariants = {
+    open: { opacity: 1, height: "auto" },
+    closed: { opacity: 0, height: 0 },
+  };
+
   return (
     <div className="bg-[#a49494c3] h-full w-full">
-    {/* Code block starts */}
-    <nav className="w-full mx-auto hidden xl:block bg-[#ffffffc3] shadow">
-      <div className="container px-6 justify-between h-16 flex items-center lg:items-stretch mx-auto">
-        <div className="h-full flex items-center">
-          <div className="mr-10 flex items-center">
-            <h3 className="text-base text-[#09b5d7] font-bold tracking-normal leading-tight ml-3 hidden lg:block">
-              CJR
-            </h3>
+      <nav className="w-full mx-auto hidden xl:block bg-[#ffffffc3] shadow">
+        <div className="container px-6 justify-between h-16 flex items-center lg:items-stretch mx-auto">
+          <div className="h-full flex items-center">
+            <div className="mr-10 flex items-center">
+              <h3 className="text-base text-[#09b5d7] font-bold tracking-normal leading-tight ml-3 hidden lg:block">
+                CJR
+              </h3>
+            </div>
+            <ul className="pr-12 xl:flex items-center h-full hidden">
+              {navItems.map((item) => (
+                <NavItem key={item.to} {...item} />
+              ))}
+            </ul>
           </div>
-          <ul className="pr-12 xl:flex items-center h-full hidden">
-            {navItems.map((item) => (
-              <NavItem key={item.to} {...item} />
-            ))}
-          </ul>
         </div>
-      </div>
       </nav>
-        {/* Mobile navigation code here */}
-        <nav className="w-full mx-auto xl:hidden bg-[#ffffffc3] shadow">
+      {/* Mobile navigation code here */}
+      <nav className="w-full mx-auto xl:hidden bg-[#ffffffc3] shadow">
         <div className="container px-6 justify-between h-16 flex items-center">
           {/* Hamburger icon */}
           <div className="text-black cursor-pointer" onClick={() => setShow(!show)}>
@@ -72,26 +75,30 @@ const Navbar = () => {
             >
               <path stroke="none" d="M0 0h24v24H0z" fill="none" />
               <line x1={4} y1={6} x2={20} y2={6} />
-              <line x1={4} y1={12} x2={20} y2={12} />
-              <line x1={4} y1={18} x2={20} y2={18} />
-            </svg>
-          </div>
-        </div>
-        {/* Mobile Navigation Menu */}
-        {show && (
-          <div className="w-full bg-gray-800 z-40">
-          <ul className="f-m-m">
-          {navItems.map((item) => (
-            <MobileNavItem key={item.to} {...item} onLinkClick={handleLinkClick} />
-          ))}
-        </ul>
-          </div>
-        )}
-      </nav>
-    </div>
-  );
+<line x1={4} y1={12} x2={20} y2={12} />
+<line x1={4} y1={18} x2={20} y2={18} />
+</svg>
+</div>
+</div>
+{/* Mobile Navigation Menu */}
+<motion.div
+className="w-full bg-[#30b2d9] z-40 overflow-hidden"
+variants={navMenuVariants}
+initial={false}
+animate={show ? "open" : "closed"}
+transition={{ duration: 0.3 }}
+>
+<ul className="f-m-m  ">
+{navItems.map((item) => (
+<MobileNavItem key={item.to} {...item} onLinkClick={handleLinkClick} />
+))}
+</ul>
+</motion.div>
+</nav>
+</div>
+);
 };
 
-
-
 export default Navbar;
+
+
