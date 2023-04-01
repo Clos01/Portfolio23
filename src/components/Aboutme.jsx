@@ -8,22 +8,7 @@ export const Aboutme = () => {
         <div className="aboutme-text">
           <h1>About me</h1>
           <p>
-            Greetings! I am a highly motivated software developer who
-            possesses a passion for collaborative work that results in
-            innovative solutions. My eagerness to learn and tackle new
-            challenges is matched only by my appreciation for constructive
-            feedback that helps me grow and develop my skills.
-          </p>
-          <p>
-            I am well-versed in computer science as applied to JavaScript,
-            including knowledge of algorithms such as searches, sorts,
-            efficiency Additionally,
-            I have gained experience working with NoSql databases,
-            Progressive Web Applications (PWAs), MERN stack development,
-            state management, and Express.js. I am committed to expanding
-            my knowledge in object-oriented programming and SQL and other
-            areas beyond my current skillset. Thank you for your
-            consideration.
+          An experienced full-stack web developer and graduate of UNC-Chapel Hill's The Coding Boot Camp. My technical expertise includes proficiency in React, HTML, CSS, JavaScript, Git, and other web development technologies. I'm passionate about crafting unique and visually stunning user experiences, and I'm actively seeking new opportunities to apply my skills, collaborate with fellow developers, and contribute to meaningful projects in the tech industry.
           </p>
           <div className="skills-icons">
             <img src="https://cdn-icons-png.flaticon.com/512/1051/1051277.png" alt="Skill" />

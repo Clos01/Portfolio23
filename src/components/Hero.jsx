@@ -29,7 +29,7 @@ export const Hero = () => {
               Hi! I'm Carlos Rivas Juarez,
             </h1>
             <p className="text-white text-xl sm:text-2xl font-bold md:text-3xl">
-              An experienced full-stack web developer and graduate of UNC-Chapel Hill's The Coding Boot Camp. My technical expertise includes proficiency in React, HTML, CSS, JavaScript, Git, and other web development technologies. I'm passionate about crafting unique and visually stunning user experiences, and I'm actively seeking new opportunities to apply my skills, collaborate with fellow developers, and contribute to meaningful projects in the tech industry.
+  
             </p>
           </motion.div>
         </div>
