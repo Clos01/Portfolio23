@@ -1,0 +1,43 @@
+body {
+    font-family: 'Noto Serif', serif;
+  }
+  .aboutme-container {
+    background: #f2f2f2; 
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .aboutme-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .aboutme-text h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  
+  .aboutme-text p {
+    font-size: 18px;
+    color: #666666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    }
+    
+    .skills-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    }
+    
+    .skills-icons img {
+    width: 40px;
+    height: 40px;
+    }
+  
