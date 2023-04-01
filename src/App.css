@@ -3,6 +3,11 @@ body {
     font-family: 'Noto Serif', serif;
   }
 
+  .highlight {
+    color: #20c6c6; /* Choose a color that matches the theme */
+    font-weight: bold;
+  }
+  
   /* about me section  */
   .aboutme-container {
     background: #f2f2f2; 
