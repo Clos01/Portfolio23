@@ -6,30 +6,29 @@ import budget from "../images/budget.png";
 import quiz from "../images/quiz.png";
 // import project5 from "../images/project5.png";
 
-const ProjectCard = ({ image, subtitle, demoLink, codeLink, description, mindes }) => (
+const ProjectCard = ({ image, subtitle, demoLink, codeLink, description }) => (
   <div className="lg:w-1/3 sm:w-1/2 p-4">
-    <div className="flex relative border border-blue-500">
+    <div className="flex relative border border-blue-500 shadow-lg"> {/* Add shadow */}
       <img
         alt="gallery"
         className="absolute inset-0 w-full h-full object-cover object-center"
         src={image}
       />
-      <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+      <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100 transition duration-300 ease-in-out"> {/* Add transition */}
         <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
           {subtitle}
         </h2>
-       
         <p className="leading-relaxed">
-        {description}
+          {description}
         </p>
         <div className="pt-8 text-center">
           <a href={demoLink}>
-            <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#1172b6] text-white text-lg">
+            <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#1172b6] text-white text-lg hover:bg-[#0a5d8a] transition duration-300 ease-in-out"> {/* Add hover effect */}
               Demo
             </button>
           </a>
           <a href={codeLink}>
-            <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#1172b6] text-white text-lg">
+            <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#1172b6] text-white text-lg hover:bg-[#0a5d8a] transition duration-300 ease-in-out"> {/* Add hover effect */}
               Code
             </button>
           </a>
@@ -40,8 +39,8 @@ const ProjectCard = ({ image, subtitle, demoLink, codeLink, description, mindes 
 );
 
 export const Projects = () => (
-  <section className="text-gray-600 body-font">
-    <div className="container px-5 py-24 mx-auto">
+  <section className="text-gray-600 body-font  projects-container">
+    <div className="container px-5 py-24 mx-auto projects-section">
       <div className="flex flex-col text-center w-full mb-20">
         <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
   Work

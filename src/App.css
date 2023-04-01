@@ -1,6 +1,9 @@
+/* full body element css */
 body {
     font-family: 'Noto Serif', serif;
   }
+
+  /* about me section  */
   .aboutme-container {
     background: #f2f2f2; 
     padding: 40px;
@@ -40,4 +43,69 @@ body {
     width: 40px;
     height: 40px;
     }
+  
+    /* project css */
+    .projects-container {
+        /* Define box style */
+        border: 1px solid #e0e0e0;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        overflow: hidden;
+        /* Define animation */
+        animation: fadeIn 1s ease-in-out;
+      }
+      
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      
+      .projects-section {
+        /* Add padding to the inner section */
+        padding: 30px;
+      }
+      
+      .resume-container {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+      }
+      
+      .resume-image {
+        height: 50%;
+      }
+      
+      .resume-button {
+        background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+        transition: background 0.3s ease;
+      }
+      
+      .resume-button:hover {
+        background: linear-gradient(90deg, #764ba2 0%, #667eea 100%);
+      }
+      /* ... Other styles ... */
+
+@keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-10px);
+    }
+    60% {
+      transform: translateY(-5px);
+    }
+  }
+  
+  .bounce-arrow {
+    animation: bounce 1.5s infinite;
+  }
   
