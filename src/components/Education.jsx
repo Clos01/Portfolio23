@@ -18,7 +18,7 @@ function Education() {
   };
 
   return (
-    <section className="section pb-0 my-5 bg-[#a4aba9]">
+    <section className="section pb-0 my-5 bg-[#d9dedd]">
       <div className="containerEdu">
         <div className="headerContainer">
           {/* Wrap the logo with the motion component and apply the animation variants */}
