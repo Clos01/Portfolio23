@@ -29,12 +29,12 @@ export const Hero = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 p-4 sm:p-0">
         <div className="py-6 px-4 sm:p-10 text-center sm:text-left">
           <motion.div initial="hidden" animate="visible" variants={textVariant}>
-            <h1 className="text-4xl font-light sm:text-5xl sm:mb-4 text-[#295986]">
+            <h1 className="text-4xl font-light sm:text-5xl sm:mb-4 text-white">
               Hi! I'm Carlos Rivas Juarez,
             </h1>
             <hr className="border-white w-3/4 mx-auto sm:mx-0 my-4" /> {/* White line */}
             <motion.p
-              className="text-white text-xl sm:text-2xl font-bold md:text-3xl leading-relaxed"
+              className="text-white  text-center text-md sm:text-2xl font-bold md:text-3xl leading-relaxed"
               initial="hidden"
               animate="visible"
               variants={paragraphVariant}
