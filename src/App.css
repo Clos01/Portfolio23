@@ -49,42 +49,7 @@ body {
     height: 40px;
     }
   
-/* AboutMe.css */
-.about-me-container {
-  padding: 30px;
-  max-width: 1000px;
-  margin: 0 auto;
-}
 
-.about-me-title {
-  text-align: center;
-  font-size: 32px;
-  margin-bottom: 20px;
-}
-
-.about-me-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.about-me-text {
-  flex: 1;
-  padding: 15px;
-  font-size: 18px;
-}
-
-.about-me-image {
-  flex: 1;
-  padding: 15px;
-  text-align: center;
-}
-
-.about-me-image img {
-  max-width: 100%;
-  border-radius: 50%;
-}
 
 
     /* education section  */
@@ -149,6 +114,53 @@ body {
   line-height: 1.5;
 }
 
+/* skill levels  */
+.skills-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.skills-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+}
+
+.skill-item {
+  flex: 1;
+  background: #f1f1f1; 
+  padding: 10px;
+  border-radius: 5px; 
+}
+
+.skill-name {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.skill-bar-container {
+  background: #e0e0e0;
+  height: 10px;
+  border-radius: 10px;
+}
+
+.skill-bar {
+  background: #00a8ff; 
+  height: 100%;
+  width: 0;
+  transition: width 1.5s ease;
+}
+.skill-name{
+  text-align: center;
+}
 
 
     /* project css */
@@ -170,6 +182,7 @@ body {
           opacity: 1;
         }
       }
+
       
       .projects-section {
         /* Add padding to the inner section */
@@ -215,4 +228,12 @@ body {
   .bounce-arrow {
     animation: bounce 1.5s infinite;
   }
-  
+  .app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+}

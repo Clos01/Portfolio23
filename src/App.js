@@ -5,8 +5,8 @@ import Home from './pages/Home';
 import { Projects } from './pages/Projects';
 import{Resume} from './pages/Resume';
 import Contact from './pages/Contact';
+import {Aboutme} from './pages/Aboutme';
 import Footer from './pages/Footer';
-import Aboutme from './pages/Aboutme';
 import './index.css'; 
 
 
