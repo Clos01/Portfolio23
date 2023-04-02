@@ -70,13 +70,13 @@ const Contact = () => {
         ></motion.textarea>
         {animateButton ? (
         <motion.button
-        className='bg-[#0d5756] text-white border-2 hover:bg-pink-700 hover:border-pink-700 px-4 py-3 my-8 mx-auto flex items-center'
+        className='bg-[#038697] text-white border-2 hover:bg-blue-700 hover:border-blue-700 px-4 py-3 my-8 mx-auto flex items-center'
         animate={controls}
         >
         Contact Me
         </motion.button>
         ) : (
-          <button className='bg-[#0d5756] text-white border-2 hover:bg-pink-700 hover:border-pink-700 px-4 py-3 my-8 mx-auto flex items-center'>Contact Me</button>
+          <button className='bg-[#038697] text-white border-2 hover:bg-blue-700 hover:border-blue-700 px-4 py-3 my-8 mx-auto flex items-center'>Contact Me</button>
         )}
         </form>
         </div>
