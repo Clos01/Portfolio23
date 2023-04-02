@@ -15,7 +15,7 @@ const Contact = () => {
       name='Contact'
       className='w-full h-screen flex justify-center items-center pt-30 sm:pt-0 p-35  '
       style={{
-        backgroundImage: 'linear-gradient(135deg, #62dade, ##116467)',
+        backgroundImage: 'linear-gradient(135deg, #62dade, #116467)',
         backgroundRepeat: 'no-repeat',
         }}
         >
