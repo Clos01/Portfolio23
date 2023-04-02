@@ -31,9 +31,14 @@ export default function Skills() {
     { name: 'JavaScript', level: 85 },
     { name: 'React', level: 75 },
     { name: 'express.js', level: 30 },
-    { name: 'Node.js', level: 20 },
-    { name: 'NativeReact', level: 10 },
-    { name: 'Nod.js', level: 10 },
+    { name: 'Node.js', level: 30 },
+    { name: 'NativeReact', level: 40 },
+    { name: `APi's`, level: 70 },
+    { name: `SQL`, level: 40 },
+    { name: `ORM`, level: 80 },
+    { name: `NoSql`, level: 20 },
+    { name: `IndexDb`, level: 40 },
+
   ];
 
   return (

@@ -55,7 +55,7 @@ export const Hero = () => {
             variants={imageVariant}
             alt="Student"
             src={port}
-            className="w-full sm:w-[25rem] max-w-full sm:rounded-full" // Added "rounded-full" class here
+            className="w-full sm:w-[21rem] max-w-full sm:rounded-full" // Added "rounded-full" class here
           />
         </div>
       </div>
