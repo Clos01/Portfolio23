@@ -6,9 +6,9 @@ import { Projects } from './pages/Projects';
 import{Resume} from './pages/Resume';
 import Contact from './pages/Contact';
 import Footer from './pages/Footer';
+import Aboutme from './pages/Aboutme';
 import './index.css'; 
- // Component names should start with a capital letter
-// import{  Aboutme}  from './components/Aboutme';
+
 
 import { Routes, Route} from "react-router-dom";
 
@@ -22,7 +22,7 @@ function App() {
         <Route path="/Projects" element={<Projects />} /> ;
         <Route path="/Resume" element={<Resume />} /> ;
         <Route path="/Contactme" element={<Contact />} /> ;
-        {/* <Route path="/" element={< Aboutme />} />  */}
+        <Route path="/Aboutme" element={< Aboutme />} /> 
 
       </Routes>
       <Footer/>

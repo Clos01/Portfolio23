@@ -23,7 +23,7 @@ export const Resume = () => {
               </svg>
             </div>
             <a
-              href="/resume2023.pdf" download={true}
+              href="/Resumelos.pdf" download={true}
               className="resume-button inline-block px-5 py-3 text-sm font-medium text-white rounded focus:outline-none focus:ring"
             >
               View Resume

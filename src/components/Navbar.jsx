@@ -28,7 +28,8 @@ const Navbar = () => {
   const navItems = [
     { to: "/", label: "Home", className: "border-b-2 border-black" },
     { to: "/projects", label: "Projects", className: "mx-10" },
-    { to: "/Resume", label: "Resume", className: "mr-10" },
+    { to: "/Resume", label: "Resume", className: "" },
+    { to: "/Aboutme", label: "About me", className: "mx-10" },
     { to: "/Contactme", label: "Contact me", className: "" },
   ];
 

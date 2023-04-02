@@ -49,6 +49,44 @@ body {
     height: 40px;
     }
   
+/* AboutMe.css */
+.about-me-container {
+  padding: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.about-me-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.about-me-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-me-text {
+  flex: 1;
+  padding: 15px;
+  font-size: 18px;
+}
+
+.about-me-image {
+  flex: 1;
+  padding: 15px;
+  text-align: center;
+}
+
+.about-me-image img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+
     /* education section  */
   /* Education.module.css */
   .imgedu{
