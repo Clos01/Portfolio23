@@ -3,7 +3,7 @@ import React from 'react';
 const Atp = () => {
   return (
     <div className="bg-[#fbfbfb] py-10 text-center ">
-      <div className="max-w-3xl mx-auto py-8 px-8 bg-white shadow-lg rounded-lg">
+      <div className="max-w-3xl mx-auto py-8 px-8 bg-[#e7f0f0] shadow-lg rounded-lg">
         <h1 className="text-3xl font-bold mb-6">What's my  Approach to Development <span className='text-[#20a0a9]'> ???</span></h1>
         <p className="text-lg text-gray-700 leading-relaxed mb-6">
           As a web developer, I believe in creating user-centric applications that prioritize

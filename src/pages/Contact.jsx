@@ -41,7 +41,7 @@ const Contact = () => {
         </motion.p>
         </div>
         <motion.input
-        className='bg-[#ccd6f6] p-2'
+        className='bg-[#bfcdc85a] p-2 border border-[#11646737] '
         type="text"
         placeholder='Name'
         name='name'
@@ -50,7 +50,7 @@ const Contact = () => {
         transition={{ delay: 0.4, duration: 0.5 }}
         />
         <motion.input
-        className='my-4 p-2 bg-[#ccd6f6]'
+        className='my-4 p-2 bg-[#bfcdc85a] border border-[#11646737] '
         type="email"
         placeholder='Email'
         name='email'
@@ -59,7 +59,7 @@ const Contact = () => {
         transition={{ delay: 0.6, duration: 0.5 }}
         />
         <motion.textarea
-        className='bg-[#ccd6f6] p-2'
+        className='bg-[#bfcdc85a] border border-[#11646737] p-2'
         name="message"
         rows="10"
         placeholder='Message'

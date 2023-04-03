@@ -40,8 +40,8 @@ export const Hero = () => {
               variants={paragraphVariant}
             >
               Let me introduce myself, i'm a <span className="text-[#295986]">full-stack developer</span> who loves turning ideas into reality through 
-              coding. <span className="text-[#295986]">When I'm not working on web development, </span> I enjoy fixing cars, 
-              trying out new recipes, and exploring the outdoors. Spending time with family and friends, doing fun activities, and
+              coding. <span className="text-[#295986]">When I'm not working on web development, </span> I enjoy working on cars, 
+              trying out new foods, and exploring the outdoors. Spending time with family and friends, doing fun activities, and
                making memories is super important to me. <span className="text-[#295986]"> My background in customer service </span> has helped 
                me become a great communicator and understand users' needs, so I always make sure my work is <span className="text-darkblue">user-friendly</span>. 
                I'm excited to connect with others who share my interests, and together, we can create amazing things!
